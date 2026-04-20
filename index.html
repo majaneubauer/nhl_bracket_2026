@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>2025 NHL Playoff Bracket</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>2025 NHL Playoff Bracket</h1>
+  <div id="user-name-section">
+    <label for="user-name"></label>
+    <input type="text" id="user-name" name="user-name" placeholder="Enter your name" />
+  </div>
+  <div id="bracket-container">
+    <!-- West Side -->
+    <div class="round round-1">
+        <div class="matchup" data-round="1" data-game="1">
+            <button class="team avalanche" data-name="Colorado Avalanche" data-logo="logos/colorado-avalanche.svg">
+                <img src="logos/colorado-avalanche.svg" alt="Colorado Avalanche Logo" />
+                <span>Colorado Avalanche</span>
+            </button>
+            </button>
+            <button class="team kings" data-name="Los Angeles Kings" data-logo="logos/los-angeles-kings.svg">
+                <img src="logos/los-angeles-kings.svg" alt="Los Angeles Kings Logo" />
+                <span>Los Angeles Kings</span>
+            </button>
+        </div>
+        <div class="matchup" data-round="1" data-game="2">
+            <button class="team stars" data-name="Dallas Stars" data-logo="logos/dallas-stars.svg">
+                <img src="logos/dallas-stars.svg" alt="Dallas Stars Logo" />
+                <span>Dallas Stars</span>
+            </button>
+            <button class="team wild" data-name="Minnesota Wild" data-logo="logos/minnesota-wild.svg">
+                <img src="logos/minnesota-wild.svg" alt="Minnesota Wild Logo" />
+                <span>Minnesota Wild</span>
+            </button>
+        </div>
+        <div class="matchup" data-round="1" data-game="3">
+            <button class="team knights" data-name="Vegas Golden Knights" data-logo="logos/vegas-golden-knights.svg">
+                <img src="logos/vegas-golden-knights.svg" alt="Vegas Golden Knights Logo" />
+                <span>Vegas Golden Knights</span>
+            </button>
+            <button class="team mammoth" data-name="Utah Mammoth" data-logo="logos/utah-mammoth.svg">
+                <img src="logos/utah-mammoth.svg" alt="Utah Mammoth Logo" />
+                <span>Utah Mammoth</span>
+            </button>
+        </div>
+        <div class="matchup" data-round="1" data-game="4">
+            <button class="team oilers" data-name="Edmonton Oilers" data-logo="logos/edmonton-oilers.svg">
+                <img src="logos/edmonton-oilers.svg" alt="Edmonton Oilers Logo" />
+                <span>Edmonton Oilers</span>
+            </button>
+            <button class="team ducks" data-name="Anaheim Ducks" data-logo="logos/anaheim-ducks.svg">
+                <img src="logos/anaheim-ducks.svg" alt="Anaheim Ducks Logo" />
+                <span>Anaheim Ducks</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="round round-2">
+        <div class="matchup" data-round="2" data-game="1">
+            <div class="team winner-spot" data-slot="1"></div> <!-- from game 1 -->
+            <div class="team winner-spot" data-slot="2"></div> <!-- from game 2 -->
+        </div>
+        <div class="matchup" data-round="2" data-game="2">
+            <div class="team winner-spot" data-slot="3"></div> <!-- from game 3 -->
+            <div class="team winner-spot" data-slot="4"></div> <!-- from game 4 -->
+        </div>
+    </div>
+
+    <div class="round round-3">
+        <!-- Western Conference Final -->
+        <div class="matchup" data-round="3" data-game="1">
+            <div class="team winner-spot" data-slot="9"></div> <!-- from slot 1 or 2 -->
+            <div class="team winner-spot" data-slot="10"></div> <!-- from slot 3 or 4 -->
+        </div>
+    </div>
+
+    <!-- Stanley Cup PLayoff Final -->
+
+    <div class="round round-4">
+        <div class="matchup" data-round="4" data-game="1">
+            <div class="team winner-spot" data-slot="13"></div> <!-- from slot 1 or 2 -->
+            <div class="team winner-spot" data-slot="14"></div> <!-- from slot 3 or 4 -->
+        </div>
+    </div>
+
+    <!-- East Side -->
+
+
+    <div class="round round-3">
+        <!-- Eastern Conference Final -->
+        <div class="matchup" data-round="3" data-game="2">
+            <div class="team winner-spot" data-slot="11"></div> <!-- from slot 5 or 6 -->
+            <div class="team winner-spot" data-slot="12"></div> <!-- from slot 7 or 8 -->
+        </div>
+    </div>
+
+
+    <div class="round round-2">
+        <div class="matchup" data-round="2" data-game="3">
+            <div class="team winner-spot" data-slot="5"></div> <!-- from game 1 -->
+            <div class="team winner-spot" data-slot="6"></div> <!-- from game 2 -->
+        </div>
+        <div class="matchup" data-round="2" data-game="4">
+            <div class="team winner-spot" data-slot="7"></div> <!-- from game 3 -->
+            <div class="team winner-spot" data-slot="8"></div> <!-- from game 4 -->
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="round round-1">
+        <div class="matchup" data-round="1" data-game="5">
+            <button class="team sabres" data-name="Buffalo Sabres" data-logo="logos/buffalo-sabres.svg">
+                <img src="logos/buffalo-sabres.svg" alt="Buffalo Sabres Logo" />
+                <span>Buffalo Sabres</span>
+            </button>
+            <button class="team bruins" data-name="Boston Bruins" data-logo="logos/boston-bruins.svg">
+                <img src="logos/boston-bruins.svg" alt="Boston Bruins Logo" />
+                <span>Boston Bruins</span>
+            </button>
+        </div>
+        <div class="matchup" data-round="1" data-game="6">
+            <button class="team lightning" data-name="Tampa Bay Lightning" data-logo="logos/tampa-bay-lightning.svg">
+                <img src="logos/tampa-bay-lightning.svg" alt="Tampa Bay Lightning Logo" />
+                <span>Tampa Bay Lightning</span>
+            </button>
+            <button class="team canadiens" data-name="Montréal Canadiens" data-logo="logos/montreal-canadiens.svg">
+                <img src="logos/montreal-canadiens.svg" alt="Montréal Canadiens Logo" />
+                <span>Montréal Canadiens</span>
+            </button>
+        </div>
+        <div class="matchup" data-round="1" data-game="7">
+            <button class="team hurricanes" data-name="Carolina Hurricanes" data-logo="logos/carolina-hurricanes.svg">
+                <img src="logos/carolina-hurricanes.svg" alt="Carolina Hurricanes Logo" />
+                <span>Carolina Hurricanes</span>
+            </button>
+            <button class="team senators" data-name="Ottawa Senators" data-logo="logos/ottawa-senators.svg">
+                <img src="logos/ottawa-senators.svg" alt="Ottawa Senators Logo" />
+                <span>Ottawa Senators</span>
+            </button>
+        </div>
+        <div class="matchup" data-round="1" data-game="8">
+            <button class="team penguins" data-name="Pittsburgh Penguins" data-logo="logos/pittsburgh-penguins.svg">
+                <img src="logos/pittsburgh-penguins.svg" alt="Pittsburgh Penguins Logo" />
+                <span>Pittsburgh Penguins</span>
+            </button>
+            <button class="team flyers" data-name="Philadelphia Flyers" data-logo="logos/philadelphia-flyers.svg">
+                <img src="logos/philadelphia-flyers.svg" alt="Philadelphia Flyers Logo" />
+                <span>Philadelphia Flyers</span>
+            </button>
+        </div>
+    </div>
+  </div>
+  <div id="analysis-popup" class="popup hidden">
+    <div class="popup-content">
+      <button id="close-popup"><span>&times;</span></button>
+      <h2 id="analysis-title">Title Here</h2>
+      <p id="analysis-body">Body text here.</p>
+      <div id="top-scorers-container"></div>
+    </div>
+  </div> 
+  <div id="champion-display">
+    <h2>Stanley Cup Champion:</h2>
+    <div id="champion-name">TBD</div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
